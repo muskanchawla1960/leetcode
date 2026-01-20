@@ -1,4 +1,4 @@
- Solution for leetcode problem Build Array from Permutation
+Day2: Solution for leetcode problem Build Array from Permutation
 
   //Time Complexity :O(n)
   //Space Complexity : O(n)
