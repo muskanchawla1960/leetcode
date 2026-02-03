@@ -1,4 +1,4 @@
-Leetcode 1678 : Goal Parser Interpretation
+Leetcode 1678 Strings : Goal Parser Interpretation
 //Time Complexity : O(n)
 //Space Complexity : O(n)
   class GoalParserInterpretation{
