@@ -1,5 +1,5 @@
 Leetcode 1684 - Count the Number of Consistent Strings
- // Time Complexity : O(n^2)
+ // Time Complexity : O(n*m)
   //Space Complexity : O(1)
   class ConsistentStrings {
     public int countConsistentStrings(String allowed, String[] words) {
