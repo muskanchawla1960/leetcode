@@ -1,4 +1,4 @@
-class Solution {
+class ContainsDuplicate {
   //Optimized Solution
   //Time Commplexity : O(n)
   //Space Complexity :O(n)
