@@ -19,7 +19,7 @@ Day 5: Leetcode Solution for Two sum
 
 //Optimized solution
 //  //Time complexity : O(n)
-  //Space Complexity : O(1)
+  //Space Complexity : O(n)
 class TwoSum {
     public int[] twoSum(int[] nums, int target) {
         HashMap<Integer, Integer> map = new HashMap<>();
