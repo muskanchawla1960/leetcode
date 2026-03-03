@@ -1,4 +1,6 @@
 LeetCode 42: Trapping Rainnwater
+  //Time Complexity = O(n)
+  //Space Cmplexity = O(n)
   
   class TrappingRainwater {
     public int trap(int[] height) {
