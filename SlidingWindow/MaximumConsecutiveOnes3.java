@@ -1,1 +1,32 @@
+LeetCode 1004: Max Consecutive Ones III
 
+  //Time Complexity: O(n)
+ // Space Complexity: O(1)
+
+
+  class MaximumConsecutiveOne3 {
+    public int longestOnes(int[] nums, int k) {
+        int left = 0;
+        int zeroCount = 0;
+        int maxLength = 0;
+        for(int right = 0; right < nums.length; right ++){
+            if(nums[right]==0){
+                zeroCount++;
+            }
+
+            while(zeroCount>k){
+                if(nums[left] == 0){
+                    zeroCount--;
+                }left++;
+            }
+
+            int length = right-left+1;
+            if(length > maxLength){
+                maxLength = length;
+            }
+        }
+
+        return maxLength;
+        
+    }
+}
